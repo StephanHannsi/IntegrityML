@@ -102,8 +102,7 @@ namespace CalcSim
 
             foreach(var target in failList)
             {
-                File.WriteAllLines(_Config.FailSavePath + _Config.DeviceId + target.Key + ".csv", (target.Value.ToArray()))1
-                    ;
+                File.WriteAllLines(_Config.FailSavePath + _Config.DeviceId + target.Key + ".csv", (target.Value.ToArray()));
             }
             Console.WriteLine("Finished sending messages");
             Console.ReadLine();
