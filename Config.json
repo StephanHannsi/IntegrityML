@@ -1,0 +1,42 @@
+{
+    "FailSavePath" : "path",
+    "DeviceId":"Tester_light",
+    "StartTime" : "2019-08-12T14:00:00.000Z",
+    "Interval" : 15,
+    "Days" : 30,
+    "AddOutliers" : 0.7,
+    "Temperature" : 22.0,
+    "Station" : {
+        "SerialNumber" : "Tester_light",
+        "PointId" : "Tester_light",
+        "Position" : {
+            "Easting" : 0,
+            "Northing" : 0,
+            "Elevation" : 0
+        }
+    },
+    "Targets" : {
+        "T1" : {
+            "id" : "T1",
+            "Abplattung" : 1,
+            "MoveScale" : 0.001,
+            "RandomScale" : 0.0006,
+            "Position" : {
+                "Easting" : 150,
+                "Northing" : 150,
+                "Elevation" : 10
+            }
+        },
+        "T2" : {
+            "id" : "T2",
+            "Abplattung" : 1,
+            "MoveScale" : 0.001,
+            "RandomScale" : 0.0005,
+            "Position" : {
+                "Easting" : 150,
+                "Northing" : 250,
+                "Elevation" : 12
+            }
+        }
+    }
+}
